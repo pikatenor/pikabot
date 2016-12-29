@@ -2,4 +2,5 @@ node_modules
 .DS_Store*
 .hubot_history
 
+gooAPIkey.txt
 chime_ignore.txt

@@ -7,7 +7,7 @@
 request = require('request')
 fs = require('fs')
 
-gooApiId = ""
+gooApiId = fs.readFileSync 'gooAPIkey.txt', 'utf8'
 
 settingFile = "./chime_ignore.txt"
 
