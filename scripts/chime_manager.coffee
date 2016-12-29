@@ -21,7 +21,7 @@ module.exports = (robot) ->
       headers: { "Content-type": "application/json" },
       json: {
         "app_id": gooApiId,
-        "sentence": msg.match[1]
+        "sentence": msg.match[0]
       }
     }
 
@@ -54,7 +54,7 @@ module.exports = (robot) ->
       headers: { "Content-type": "application/json" },
       json: {
         "app_id": gooApiId,
-        "sentence": msg.match[1]
+        "sentence": msg.match[0]
       }
     }
 
